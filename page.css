@@ -1,0 +1,667 @@
+@import url(./font.css);
+
+*{
+margin:0px;
+padding: 0px;
+}
+body{
+    font-family: 'Work Sans';
+}
+
+header{
+padding:12px 17px;
+}
+
+header ul{
+list-style: none;
+display: flex;
+justify-content: space-between;
+}
+
+footer{
+background-color: rgb(0, 0, 0);
+color:white;
+padding:50px 20px;
+}
+footer p{
+color:white;
+}
+footer li{
+padding-top:5px;
+padding-bottom: 5px;
+}
+footer li:last-child{
+padding-bottom: 0px;    
+}
+footer li a{
+color: white;
+}
+footer ul{
+margin-bottom: 50px;
+}
+footer input{
+color:grey;
+background-color: transparent;
+border-width: 0px;
+margin-bottom: 0px;
+}
+
+button{
+display:block;
+color:white;
+background-color:rgb(241, 82, 50);
+padding: 13px 20px;
+border-radius: 5px;
+border-width: 0px;
+font-size: 17px;
+letter-spacing: 1px;
+margin:auto;
+box-shadow: 2px 2px 10px rgb(241, 82, 50);
+margin-bottom: 50px;
+}
+
+    p{
+    margin-bottom: 25px;
+    color:grey;
+    }    
+
+    h4, h3{
+    margin-bottom: 18px;
+    }
+
+    h6{
+    margin-bottom:18px;
+    color: grey;    
+    }
+    
+
+    span{
+    color:rgb(241, 82, 50)
+    }
+    form input{
+    display: block;
+    margin-bottom:18px;
+    padding:18px;
+    border-width: 0px;
+    box-shadow: 3px 3px 5px -2px grey;
+    width:90%;
+    }
+    a{
+    text-decoration: none;
+    }
+    ul{
+    list-style: none;    
+    }
+.img{
+    display: block;
+}
+.imagecenter{
+    display: block;
+    margin:0 auto;
+}
+/*classes based on colors---------------------------------------------------------*/
+.lightorange{
+    background-color: rgb(254, 247, 244);
+    padding:50px 20px 50px 20px;
+}
+.whitetext{
+    color:white;
+}
+.white{
+    background-color: white;
+    padding:50px 20px 50px 20px; 
+}
+.grey{
+    color: grey;
+}
+.red{
+    color: rgb(241, 82, 50);
+}
+.black{
+    color:rgb(0, 0, 0);
+}
+/*------------------------------------------------------------------------------*/
+.textcenter{
+    text-align: center;
+}
+
+.box{
+    border-radius:1px;
+    box-shadow:1px 1px 5px -2px grey;
+    padding:71px 69px;
+    margin-bottom:25px;
+    background-color: white;
+}
+.box h4{
+    margin-bottom:0px;
+}
+.parent-imagecard{
+    box-shadow: 3px 3px 5px -2px grey;
+}
+
+.imagecard{
+position: relative;
+display: flex;
+}
+
+.imagecard img{
+    margin: auto;
+    flex-grow: 1;
+}
+.imagecard ul li{
+    margin-bottom:-20px;
+}
+.icon{
+    position: absolute;
+    right:0px;
+    top:50px;
+}
+.ourwork{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ourwork li a{
+    text-decoration: none;
+    color:grey;
+}
+.ourwork li a:hover{
+    color: rgb(241, 82, 50);
+}
+.orangeimage{
+    background-image: url(./assets/images/orange.png);
+    height: 370px;
+    background-size: cover;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    color:white;
+}
+
+.orangeimage h6{
+    color: white;
+}
+.slider{
+    background-color: rgb(241, 82, 50);
+    position: relative;
+    padding:26px 12px 18px 35px;
+    color:white;
+}
+.slider h6{
+    color: white;
+}
+.slider img{
+    position: absolute;
+    top:26px;
+    left:-20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+.shadow{
+    box-shadow:3px 3px 5px -2px grey;
+    padding:19px 18px 27px;
+}
+.copyright{
+    background-color: rgb(241, 82, 50);
+    padding: 18px;
+    color: white;
+    text-align: center;
+}
+.copyright h6{
+color: white;
+}
+.tabfooterpara{
+    display: none;
+}
+.ontab{
+    display: none;
+}
+.f{
+    display: flex;
+    border:1px solid rgb(241, 82, 50);
+}
+/* MARGIN CLASSES---------------------------------------------------------------------*/
+
+.zerobottom{
+    margin-bottom: 0px;
+}
+.bottommargin{
+    margin-bottom: 50px;
+}
+.eight{
+    margin-bottom: 8px;
+}
+.twentyfive{
+    margin-bottom: 25px;
+}
+.fifty{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.padhundred{
+    padding-bottom: 100px;
+}
+.ten{
+    margin-bottom: 10px;
+}
+.eighteen{
+    margin-bottom: 18px;
+}
+.twentyfive:last-child{
+    margin-bottom: 0px;
+}
+.topfifteen{
+    margin-top: 15px;
+}
+.topeleven{
+    margin-top: 11px;
+}
+.toptwentyfive{
+    margin-top: 25px;
+}
+/*tab classes---------------------------------------------------------------------------*/
+.tab{
+    display: none;
+}
+.ashlyn{
+    display: none;
+}
+.morecards{
+    display: none;
+}
+/*DESKTOP CLASSES------------------------------------------------------------------------*/
+.deskcards{
+    display: none;
+}
+.ondesk{
+    display: none;
+}
+.socialicon{
+    display: none;
+}
+/* ===========tab==========*/
+
+@media (min-width:768px) and (max-width:1023px){
+header{
+padding: 27px 48px;
+}
+button{
+    margin:0px;
+}
+footer{
+    padding: 60px 40px ;
+}
+.hidden{
+    display: none;
+}
+.tab{
+    display: block;
+}
+.textleft{
+    text-align: left;
+}
+
+.tabone{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tabtwo{
+    display: flex;
+}
+.box{
+    margin-bottom: 0px;
+    margin-right: 24px;
+    padding:35px 17px 18px 17px;
+}
+.box:last-child{
+    margin-right: 0px;
+}
+.tabcard{
+    display: flex;
+    margin-top: 84px;
+}
+.tabthree{
+    display: flex;
+}
+.tabfive{
+    display: flex;
+    justify-content: space-between;
+}
+.tabsix{
+    display: flex;
+    justify-content: center;
+}
+
+.tabchild{
+    flex:1;
+}
+.tabchildone{
+    display: flex;
+    flex-direction: column;
+}
+.tabchildtwo{
+    display: flex;
+    flex-direction: column;
+}
+.tabzigzag{
+    height: 150px;
+    width: 162px;
+}
+.tabfooter{
+    display: flex;
+}
+.lightorange{
+    padding:73px 40px;
+    position: relative;
+}
+.white{
+    padding:73px 40px;
+    background-color: white;
+}
+.ashlyn{
+    display: block;
+}
+.socialicon{
+    position: absolute;
+    right:0px;
+    display: block;
+}
+.tabwatermarks{
+    height:110px;
+    width: 140px;
+}
+
+.tabservices{
+    display: flex;
+    justify-content: center;
+}
+.tabform{
+    display: flex;
+    justify-content:center ;
+}
+
+.tabflex{
+    display: flex;
+}
+
+.tabsmallimages{
+    height:230px;
+    width: 213px;
+}
+.formchildone{
+   width: 40%;
+   align-self: flex-end;
+   margin-right: 25px;
+}
+.formchildone img{
+    width: 300px;
+}
+.formchildtwo{
+   width:60%;
+}
+.morecards{
+    display: block;
+}
+.mobilefooter{
+    display: none;
+}
+.tabfooterpara{
+    display: block;
+}
+.onmobile{
+    display: none;
+}
+.ontab{
+display: block;
+}
+.deskcards{
+    display: none;
+}
+.ondesk{
+    display: none;
+}
+
+/*MARGIN CLASSES---------------------------------------------------------------------------------*/
+.tabten{
+    margin-bottom: 10px;
+}
+.twentyone{
+    margin-right: 21px;
+}
+.twentyfour{
+    margin-bottom: 24px;
+}
+.fifty{
+    margin-top:60px;
+    margin-bottom: 120px;
+}
+.sixty{
+    margin-bottom: 60px;
+}
+.seventynine{
+    margin-right: 79px;
+}
+.topsixty{
+    margin-top: 60px;
+}
+.twentyfive{
+    margin-bottom: 0px;
+}
+.onetwenty{
+    margin-bottom: 120px;
+}
+.righttwentythree{
+    margin-right: 23px;
+}
+.tabsize{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+}
+
+@media (min-width:1024px){
+    header{
+        padding-left: 135px;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    button{
+        margin:0px;
+    }
+    footer{
+        padding: 66px 135px;
+    }
+    .hidden{
+        display: none;
+    }
+    .tab{
+        display: block;
+    }
+    .textleft{
+        text-align: left;
+    }
+    
+    .tabone{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .tabtwo{
+        display: flex;
+    }
+    .box{
+        margin-bottom: 0px;
+        margin-right: 24px;
+        padding:25px 33px 21px 31px;
+    }
+    .box:last-child{
+        margin-right: 0px;
+    }
+    .tabcard{
+        display: flex;
+        margin-top: 60px;
+    }
+    .tabthree{
+        display: flex;
+    }
+    .tabfive{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .tabsix{
+        display: flex;
+        justify-content: center;
+    }
+    .tabchild{
+        flex:1;
+    }
+    .tabchildone{
+        display: flex;
+        flex-direction: column;
+    }
+    .tabchildtwo{
+        display: flex;
+        flex-direction: column;
+    }
+    .tabfooter{
+        display: flex;
+    }
+    .lightorange{
+        padding:153px 135px;
+        position: relative;
+    }
+    .socialicon{
+        position: absolute;
+        right:0px;
+        display: block;
+    }
+    .white{
+        padding:153px 135px;
+        background-color: white;
+    }
+    .ashlyn{
+        display: block;
+    }
+    
+    .tabwatermarks{
+        height:110px;
+        width: 140px;
+    }
+    
+    .tabservices{
+        display: flex;
+        justify-content: center;
+    }
+    .tabform{
+        display: flex;
+        justify-content:center ;
+    }
+    
+    .tabflex{
+        display: flex;
+    }
+    
+    .tabsmallimages{
+        height:230px;
+        width: 213px;
+    }
+    .formchildone{
+       width: 40%;
+       align-self: flex-end;
+       margin-right: 25px;
+    }
+    .formchildone img{
+        width: 300px;
+    }
+    .formchildtwo{
+       width:60%;
+    }
+    .morecards{
+        display: block;
+    }
+    .mobilefooter{
+        display: none;
+    }
+    .tabfooterpara{
+        display: none;
+    }
+    .onmobile{
+        display: none;
+    }
+    .ontab{
+    display:none;
+    }
+    .ondesk{
+        display: block;
+    }
+    .deskcards{
+        display: block;
+    }
+    
+    /*MARGIN CLASSES---------------------------------------------------------------------------------*/
+.twentyone{
+    margin-right: 35px;
+}
+.twentyfour{
+    margin-bottom: 24px;
+}
+.fifty{
+    margin-top:60px;
+    margin-bottom: 120px;
+}
+.sixty{
+    margin-bottom: 60px;
+}
+.seventynine{
+    margin-right: 79px;
+}
+.topsixty{
+    margin-top: 60px;
+}
+.twentyfive{
+    margin-bottom: 0px;
+}
+.onetwenty{
+    margin-bottom: 120px;
+}
+.righttwentythree{
+    margin-right: 23px;
+}
+.tabzigzag{
+    height: 150px;
+    width: 162px;
+}
+.tabsize{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.tabten{
+    margin-bottom: 10px;
+}
+/*font size*/
+
+.fontsixteen{
+    font-size: 16px;
+}
+.byseventy{
+    height:70px;
+    width:70px;
+}
+.bythreeseventy{
+    height:370px;
+    width:370px;
+}
+.byimagesize{
+    height:300px;
+    width:400px;
+}
+.map{
+    height:450px;
+    width:1100px !important;
+}
+}
